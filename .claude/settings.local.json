@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\abhishek.pandit\\\\Music\\\\fast-api\\\\CRUD\\\\venv\\\\Scripts\\\\python.exe\" -m pip install --upgrade pip)",
+      "PowerShell(& \"C:\\\\Users\\\\abhishek.pandit\\\\Music\\\\fast-api\\\\CRUD\\\\venv\\\\Scripts\\\\python.exe\" -m pip install -r \"C:\\\\Users\\\\abhishek.pandit\\\\Music\\\\fast-api\\\\CRUD\\\\requirements.txt\")",
+      "PowerShell(Invoke-RestMethod -Uri \"http://127.0.0.1:8000/\" -Method Get)"
+    ]
+  }
+}

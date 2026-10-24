@@ -2,7 +2,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-DATABASE_URL = "mysql+pymysql://root:root@localhost:3306/fastapi_db"
+DATABASE_URL = "mysql+pymysql://root:root@localhost:3306/crud_db"
 
 engine = create_engine(
     DATABASE_URL,
